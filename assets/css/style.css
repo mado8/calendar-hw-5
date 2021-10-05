@@ -1,0 +1,103 @@
+:root {
+  --background: rgb(226, 240, 233);
+  --dark-green: rgb(58, 65, 58);
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  background-color: var(--background);
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: var(--dark-green);
+  border-left: 1px solid var(--dark-green);
+  padding: 10px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: rgb(150, 181, 165);
+  color: var(--dark-green);
+  border-radius: 0;
+  border-bottom: 10px solid rgb(104, 140, 120);
+}
+
+#jumbotron-head {
+  background-color: rgb(150, 181, 165);
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.time-block {
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid var(--background);
+  justify-content: center;
+}
+
+.hour {
+  background-color: var(--background);
+  padding: 10px;
+  color: var(--dark-green);
+  border-top: 1px dashed var(--dark-green);
+  border-right: 1px dashed var(--dark-green);
+}
+
+.schedule, [contenteditable="true"]:active,
+[contenteditable="true"]:focus{
+  border:none;
+  outline:none;
+  color: var(--dark-green);
+  line-height: 130%;
+  padding: 10px;
+}
+
+.past {
+  background-color: #c0d8cc;
+  color: var(--dark-green);
+}
+
+.present {
+  background-color: #eec681;
+  color: var(--dark-green);
+}
+
+.future {
+  background-color: #edd5ab;
+  color: var(--dark-green);
+}
+
+.save {
+  border-left: 1px solid var(--dark-green);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-size: 25%;
+  background-color: rgb(150, 181, 165);
+  color: var(--background);
+  font-size: 20px;
+}
+
+.save:hover i {
+  font-size: 25px;
+  transition: all 0.3s ease-in-out;
+  color: var(--dark-green);
+}
+
+@media screen and (max-width: 360px){
+  .display-3 {
+    font-size: xx-large;
+  }
+}
+
