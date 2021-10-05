@@ -105,15 +105,15 @@ button9.addEventListener("click", function() {
 });
 
 button10.addEventListener("click", function() {
-    localStorage.setItem('text10', textarea1.value0);
+    localStorage.setItem('text10', textarea1.value);
 });
 
 button11.addEventListener("click", function() {
-    localStorage.setItem('text11', textarea1.value1);
+    localStorage.setItem('text11', textarea1.value);
 });
 
 button12.addEventListener("click", function() {
-    localStorage.setItem('text12', textarea1.value2);
+    localStorage.setItem('text12', textarea1.value);
 });
 
 // set text to locally stored text
