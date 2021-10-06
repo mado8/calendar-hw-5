@@ -8,7 +8,9 @@ This application was designed as a convenient work scheduling application by dis
 
 ## Links
 https://mado8.github.io/calendar-hw-5/
+
 https://github.com/mado8/calendar-hw-5
+
 ## Contact
 Madeline Donley
 
