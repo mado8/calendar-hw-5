@@ -1,4 +1,4 @@
-# calendar-hw-5
+# work-calendar
 Modifying a codebase to create a calendar using moment.js and making it responsive to the current time.
 
 ## Description
@@ -9,9 +9,9 @@ This application was designed as a convenient work scheduling application by dis
 https://user-images.githubusercontent.com/88465484/136131631-3bc1d442-7951-4df2-9c69-bb3f5ccbcc3e.mov
 
 ## Links
-https://mado8.github.io/calendar-hw-5
+https://mado8.github.io/work-calendar
 
-https://github.com/mado8/calendar-hw-5
+https://github.com/mado8/work-calendar
 
 ## Contact
 Madeline Donley
